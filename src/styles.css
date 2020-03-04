@@ -1,3 +1,32 @@
 .container {
-  width: 88% !important;
+  width: 90% !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+
+.gray-background{
+  background-color: gainsboro!important;
+}
+
+.yellow-text {
+  color: yellow !important;
+}
+
+.green-text {
+  color: #009944 !important;
 }

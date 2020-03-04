@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import * as M from 'materialize-css/dist/js/materialize'; 
+import {
+  Component,
+  OnInit
+} from '@angular/core';
+import * as M from 'materialize-css/dist/js/materialize';
 
 @Component({
   selector: 'app-navbar',
@@ -8,11 +11,14 @@ import * as M from 'materialize-css/dist/js/materialize';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
-      const sidenav = document.querySelectorAll('.sidenav');
-      M.Sidenav.init(sidenav, null);
+    const sidenav = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(sidenav, null);
+
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    M.Dropdown.init(elems, null);
   }
 
 }

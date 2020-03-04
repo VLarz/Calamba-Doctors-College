@@ -6,8 +6,8 @@
       </a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="mdi mdi-menu"></i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Home</a></li>
-        <li><a href="badges.html">Academics</a></li>
+        <li><a routerLink="/home">Home</a></li>
+        <li><a class='dropdown-trigger' href='#' data-target='academic-dropdown'>Academics<i class="drop-down mdi mdi-menu-down right"></i></a></li>
         <li><a href="collapsible.html">Board of Trustees</a></li>
         <li><a href="sass.html">Academic Administration</a></li>
         <li><a href="collapsible.html">About Us</a></li>
@@ -21,4 +21,13 @@
   <li><a href="badges.html">Components</a></li>
   <li><a href="collapsible.html">Javascript</a></li>
   <li><a href="mobile.html">Mobile</a></li>
+</ul>
+
+<!-- Dropdown Structure -->
+<ul id='academic-dropdown' class='dropdown-content'>
+  <li><a href="#!">Basic Education</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a href="#!">College</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a href="#!">Technical Vocational Tracks</a></li>
 </ul>

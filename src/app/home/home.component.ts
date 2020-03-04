@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit
+} from '@angular/core';
 import * as M from 'materialize-css/dist/js/materialize';
 
 @Component({
@@ -9,8 +12,7 @@ import * as M from 'materialize-css/dist/js/materialize';
 export class HomeComponent implements OnInit {
 
 
-  constructor() {
-  }
+  constructor() {}
 
   carouselElem;
   parallaxElem;
@@ -25,11 +27,12 @@ export class HomeComponent implements OnInit {
       duration: 500
     });
 
-    // this.autoPlayCarousel();
-
     // Parallax
     const elems = document.querySelectorAll('.parallax');
     M.Parallax.init(elems, null);
+
+    // this.autoPlayCarousel();
+
   }
 
   // Parallax
