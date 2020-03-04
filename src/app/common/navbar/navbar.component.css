@@ -22,10 +22,15 @@ nav {
 
 #academic-dropdown {
   top: 100% !important;
-  width: 215px !important;
+  width: 250px !important;
 }
 
 .drop-down {
   margin-top: 16px;
   margin-left: 5px !important;
+}
+
+#about-dropdown {
+  top: 100% !important;
+  width: 250px !important;
 }
