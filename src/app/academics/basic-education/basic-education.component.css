@@ -1,0 +1,36 @@
+.margin-top-medium {
+  margin-top: 25px;
+}
+
+.margin-top-large {
+  margin-top: 50px;
+}
+
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+
+.tabs .tab a {
+  color: #009944 !important;
+}
+
+.tab-padding {
+  padding: 40px 30px 30px 50px;
+}
+
+.tab-border {
+  background: #f2f2f2;
+  border: 2px solid #ebebeb;
+  border-radius: 0 0 6px 6px;
+
+}
+/* background: #f2f2f2  none repeat scroll 0 0 */
+
+.header-title{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
