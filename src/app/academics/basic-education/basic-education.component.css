@@ -34,3 +34,11 @@
   text-align: center;
 }
 
+.divider{
+  height: 2px;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+
