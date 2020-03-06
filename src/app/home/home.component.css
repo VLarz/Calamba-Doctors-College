@@ -68,3 +68,12 @@
   width: 500px;
   margin:auto;
 }
+
+.img-list
+{
+  width: 50%;
+}
+
+ul li{
+  margin-left: 30px
+}

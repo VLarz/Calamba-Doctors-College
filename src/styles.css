@@ -10,7 +10,6 @@
   margin: 0 !important;
 }
 
-
 .no-margin-top {
   margin-top: 0 !important;
 }
@@ -34,4 +33,8 @@
 
 .tabs .indicator {
   background-color: yellow !important;
+}
+
+.justify-text {
+  text-align: justify;
 }

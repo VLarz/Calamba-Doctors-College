@@ -41,4 +41,7 @@
 .text-underline{
   text-decoration: underline;
 }
+ul li{
+  margin-left: 20px
+}
 

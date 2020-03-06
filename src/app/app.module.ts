@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { BasicEducationComponent } from './academics/basic-education/basic-education.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './about/about-cdc/about.component';
 
 @NgModule({
   declarations: [

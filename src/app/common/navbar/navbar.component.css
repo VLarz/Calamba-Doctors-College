@@ -20,7 +20,7 @@ nav {
   padding-top: 0.9vw;
 }
 
-#academic-dropdown {
+#academics-dropdown {
   top: 100% !important;
   width: 250px !important;
 }
@@ -34,3 +34,9 @@ nav {
   top: 100% !important;
   width: 250px !important;
 }
+
+#admissions-dropdown {
+  top: 100% !important;
+  width: 250px !important;
+}
+
