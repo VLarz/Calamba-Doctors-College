@@ -10,7 +10,7 @@
         <li><a class='dropdown-trigger' href='#' data-target='about-dropdown'>About<i class="drop-down mdi mdi-menu-down right"></i></a></li>
         <li><a class='dropdown-trigger' href='#' data-target='academics-dropdown'>Academics<i class="drop-down mdi mdi-menu-down right"></i></a></li>
         <li><a class='dropdown-trigger' href='#' data-target='admissions-dropdown'>Admissions<i class="drop-down mdi mdi-menu-down right"></i></a></li>
-        <li><a href="sass.html">Contact Us</a></li>
+        <li><a routerLink="/contact-us">Contact Us</a></li>
       </ul>
     </div>
   </div>
@@ -27,6 +27,10 @@
 <ul id='about-dropdown' class='dropdown-content'>
   <li><a routerLink="/about">About CDC</a></li>
   <li class="divider" tabindex="-1"></li>
+  <li><a routerLink="/about" fragment="goals">Vision & Mission</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a href="#!">Objectives</a></li>
+  <li class="divider" tabindex="-1"></li>
   <li><a href="#!">Board of Trustees</a></li>
   <li class="divider" tabindex="-1"></li>
   <li><a href="#!">Academic Administration</a></li>
@@ -36,12 +40,12 @@
 <ul id='academics-dropdown' class='dropdown-content'>
   <li><a routerLink="/basic-education">Basic Education</a></li>
   <li class="divider" tabindex="-1"></li>
-  <li><a href="#!">College</a></li>
+  <li><a routerLink="/college">College</a></li>
 </ul>
 
 <!-- Admissions Dropdown -->
 <ul id='admissions-dropdown' class='dropdown-content'>
-  <li><a routerLink="/about">Requirements</a></li>
+  <li><a routerLink="/requirements">Requirements</a></li>
   <li class="divider" tabindex="-1"></li>
   <li><a href="#!">Payment</a></li>
   <li class="divider" tabindex="-1"></li>

@@ -14,10 +14,22 @@
   margin-top: 0 !important;
 }
 
-
 .margin-top-small {
   margin-top: 10px !important;
 }
+
+.margin-top-medium {
+  margin-top: 25px;
+}
+
+.margin-top-large {
+  margin-top: 50px;
+}
+
+.margin-bottom-small {
+  margin-bottom: 10px !important;
+}
+
 
 .gray-background {
   background-color: gainsboro !important;
